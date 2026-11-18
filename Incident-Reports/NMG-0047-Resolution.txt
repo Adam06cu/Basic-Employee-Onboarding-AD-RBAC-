@@ -1,0 +1,17 @@
+1. Jane is an HR Payroll specialist, 
+2. She gets access denied on all HR shared resources
+3. Computer beheaves compltetly different form other HR people 
+
+She is currently in Operations OU, she should be in the HR OU.
+She is currently a member of 'Operations-Users", she should be a part of "HR-Users".
+
+The reason this problem occured was because Jane was in the wrong OU meaning she got access to Operations resources instead of HR resources.
+
+Ticket Number: NMG-0047
+Affected User: Jane Cooper
+Issued reported: Unable to use HR resources, computer beheaves differently from her HR teamates.
+Root Cause: She was in the wrong OU which in term meant she was also in the wrong security group, granting her acess to  Operations resources instead of HR.
+Fix Applied: I moved her from Operations to HR OU, moved her from Operations-Users security group to HR-Users security group.
+Verification: I comfermed the issue was solveed by cheching her OU aswell as security group and they are both currently HR.
+Date Resolved: 11/6/2026
+Resolved by: Adam Martinez
