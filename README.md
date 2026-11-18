@@ -5,7 +5,6 @@
 North Star Mdeical Group had a very outdated Identity Lifecycle Workflow. Users had to be added and removed manualy. This became a problem when the company grew to 200 employees, making it almost impossible to tell who had access to what, since there was no Audit trails. This caused severe HIPAA riks since information could easely be leaked by someone having access to something they are not supposed to
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
 
 I created an Active Directory using a virtaul machine. With-in it I created a basic employee onboarding pipeline. I made sure employees only had acess to the resources needed for their jobs and nothing else. I used a mock ticket to simulate a user being in the wrong OU and security group and documented the process of fixing it.
 
@@ -29,5 +28,5 @@ I created an Active Directory using a virtaul machine. With-in it I created a ba
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Simulated a ticket of an employee who was given incorrect acess and solved it
+* Documented everything from start to fisnish
