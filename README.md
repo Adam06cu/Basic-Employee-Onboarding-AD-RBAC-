@@ -9,7 +9,7 @@ North Star Mdeical Group had a very outdated Identity Lifecycle Workflow. Users 
 I created an Active Directory using a virtaul machine. With-in it I created a basic employee onboarding pipeline. I made sure employees only had acess to the resources needed for their jobs and nothing else. I used a mock ticket to simulate a user being in the wrong OU and security group and documented the process of fixing it.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://canva.link/gb7kzgclkfozuz8
 
 ## Tools Used
 * Windows Server
